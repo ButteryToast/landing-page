@@ -114,7 +114,7 @@ figcaption{
     font-weight: bold;
 }
 
-@media (min-width: 750px){
+@media (max-width: 750px){
     iframe{
         width: 640px;
         height: 480px;
