@@ -1,7 +1,9 @@
 body{
-    background-color: #333;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
+    background: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/D4FBWUV/rugged-winter-mountain-time-lapse-alaska-1080p_4dswjw4ix__F0012.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .header{
@@ -33,6 +35,8 @@ body{
     width: 100%;
     background-color: rgba(0,0,0,0.3)
 }
+
+.container{background-color: rgba(0,0,0,0.5);}
 
 #form{
     text-align: center;
