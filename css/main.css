@@ -90,10 +90,15 @@ body{
 
 #products a{text-decoration: none;}
 
+.flex-container{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    flex-basis: auto;
+}
+
 .item{
     width: 95%;
-    display: inline-flex;
-    justify-content: center;
 }
 
 figure{
@@ -103,8 +108,6 @@ figure{
     border: 3px solid #666;
     border-radius: 10px;
     margin-bottom: 20px;
-    flex-flow: column;
-    flex: 1 1 auto;
 }
 
 figcaption{
@@ -114,7 +117,7 @@ figcaption{
     font-weight: bold;
 }
 
-@media (max-width: 750px){
+@media only screen and (max-width: 750px){
     iframe{
         width: 640px;
         height: 480px;
